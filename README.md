@@ -10,7 +10,6 @@ Projeto desenvolvido para o **Checkpoint 1** da disciplina:
 ## 👥 Integrantes do Grupo
 - Julia Amorim - RM99609
 - Lana Leite - RM551143
-- Lucas Speranzini - RM98297
 - Matheus Cavasini - RM97722
   
 ---
