@@ -1,4 +1,4 @@
-package br.com.fiap3espv.spring_boot_project.endereco;
+package br.com.fiap3espv.spring_boot_project.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

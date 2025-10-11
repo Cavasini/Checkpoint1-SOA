@@ -1,6 +1,6 @@
-package br.com.fiap3espv.spring_boot_project.instrutor;
+package br.com.fiap3espv.spring_boot_project.domain.instrutor;
 
-import br.com.fiap3espv.spring_boot_project.endereco.DadosEndereco;
+import br.com.fiap3espv.spring_boot_project.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -15,6 +15,9 @@ public record DadosCadastroInstrutor(
         @NotBlank
         @Email
         String email,
+
+        @NotBlank
+        String telefone,
 
         @NotBlank
         @Pattern(regexp = "\\d{9,11}")
